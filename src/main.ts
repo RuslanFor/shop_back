@@ -16,7 +16,7 @@ async function bootstrap() {
 
   app.enableCors({
     credentials: true,
-    origin:['http://localhost:3001']
+    origin:['http://localhost:3001','https://shop-frontik-9zkapv8ho-ruslanfor.vercel.app']
   })
   
   const config = new DocumentBuilder()
