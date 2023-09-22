@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "freedb_forsikkk",
+    "password": "MJ%?CTkqMy64*wA",
+    "database": "freedb_shop_crosss",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "test": {
+    "username": "freedb_forsikk",
+    "password": "MJ%?CTkqMy64*wA",
+    "database": "freedb_shop_crosss",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "production": {
+    "username": "freedb_forsikkk",
+    "password": "MJ%?CTkqMy64*wA",
+    "database": "freedb_shop_crosss",
+    "host": "sql.freedb.tech",
+    "dialect": "mysql",
+    "port": 3306
+  }
+}
+
