@@ -7,7 +7,7 @@ import { AuthenticatedGuard } from 'src/auth/authenticated.guard';
 export class PaymentController {
     constructor(private paymentService: PaymentService){}
 
-    @UseGuards(AuthenticatedGuard)
+    // @UseGuards(AuthenticatedGuard)
     @Post()
     makePayment(@Body() makePaymentDto:MakePaymentDto){
         return this.paymentService.makePayment(makePaymentDto)
